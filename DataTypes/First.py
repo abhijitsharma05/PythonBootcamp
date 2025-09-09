@@ -151,6 +151,115 @@ else:
     grade = "E"
 print(grade)
 
-#3rd
+#Saturday 
+student = ('Ravi',34,"Delhi","India","IT","Delhi")
+print("student tuple, student", student)
+ 
+print("Nmae",student[0])
+print(" address details:", student[2:4])
+ 
+if "A" in student:     #Mmeberhsip Test
+    print("A is present in the tuple")
+   
+for a in student:
+    print("value:", a)
+   
+print("Length of the tuple:", len(student))
+ 
+print(" Occuracingin the the student tuple", student.count("Delhi"))
+ 
+print("Index of IT in the tuple:", student.index("IT"))
+ 
+# Tuple to list conversion
+student_list = list(student)
+student_list.append("WIPRO Technologies")
+student_list[3] = "Bangalore"
+print( "The list is ", student_list)
+ 
+# convert back to tuple fromthe list
+student = tuple(student_list)
+print("The modified tuple is ", student)
+ 
+project_codes = ('P001', 'P002', 'P003') # another tuple
+complete_tuple = student + project_codes  # concatenation of tuples
+print("The complete tuple after concatenation is ", complete_tuple)
+ 
+#tuple within the tuple = nested tuples
+studdent_nested = (student, project_codes)
+print("The nested tuple is ", studdent_nested)
+print("Accessing nested tuple element:", studdent_nested[0][1])  # accessing
+print("Accessing nested 2nd tuple element:", studdent_nested[1][1])  # accessing
+print(student)
+ 
+#Unpacking the tuple
+name, age, city, country, dept, state, org = student
+print("Unpacked Values - Name:", name, ", Age:", age, ", City:", city, ", Country:", country, ", Dept:", dept, ", State:", state)
+ 
+scores = (56,89,23,90,87,66)
+print("Minimum score:", min(scores))
+print("Maximum score:", max(scores))
+print("Sum of scores:", sum(scores))
+ 
+#extended tuple unpacking
+a, b, c, *rest = scores
+print("a:", a)
+print("b:", b)  
+print("c:", c)
+print("rest:", rest)  # rest will be a list of remaining elements
+ 
+# comparision of tuples
+print((3,4,5) == (3,4,5))
+print((6,7,4) == (6,7,1))
+ 
+s = list(scores)
+s.sort
+ 
+# comparision of tuples
+print((3,4,5) > (3,4,5))
+print((6,7,4) > (6,7,1))
 
-
+#string------------------/--------------------------------/-----------------------------
+ 
+s1 = "Samsung LED is good TV and is available in mutiple colors"
+s2 = '                    Brand is good                                             '
+s3 = """This is a good rband in the market
+You can see multiple products of multiple categories
+Available in all the major retail stores
+you can buy online also.
+"""
+ 
+print([s1, s2, s3])
+ 
+print(s1[2])
+print(s1[0:6])
+print(s1[0:10:2])  # step value
+print(s1[-1])  # last character
+print(s1[-4:])  # negative indexing including the last chafacter
+print(s1[-4:-2])  # negative indexing eclusign the last character
+print(s1[-5])  # negative indexing to fetch the 5th indexed character from last
+print(s1[::-1])  # reversing the string
+ 
+print("Length of the string s1:", len(s1))
+ 
+print( s1 * 4) # repeating the string
+ 
+print(s2.upper()) # converting to upper case
+print(s2.lower()) # converting to lower case
+print(s2.strip()) # removing leading and trailing spaces
+print(s1.replace("is", "are")) # replacing the string
+print(s3.split(" ")) # splitting the string based on space
+print(s1.startswith("Sam")) # checking the starting of the string
+print(s1.endswith("LED ")) # checking the ending of the string
+print(s1.find("LED")) # finding the index of the substring
+print(s1.count("in")) # counting the occurrence of a substring
+ 
+v = "black, white, grey,darkblack"
+res = v.split(",") # splitting the string based on comma
+print(res)
+x = "::".join(res) # joining the list elements with hyphen
+print(x)
+ 
+print("is" in s1) # membership test
+reverse_Str = ''.join(reversed(s1)) # reversing the string using reversed() function
+print(reverse_Str)
+ 

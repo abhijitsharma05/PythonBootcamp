@@ -1,0 +1,15 @@
+data = [{
+    "name":"Ravi",
+    "age": 45,
+    "location":"Pune"
+},
+{
+    "name":"Abhijit",
+    "age": 45,
+    "location":"kolkata"
+},{
+    "name":"Rakaesh",
+    "age": 45,
+    "location":"Delhi"
+}
+]
