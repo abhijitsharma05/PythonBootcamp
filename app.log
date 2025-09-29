@@ -1,0 +1,21 @@
+[2025-09-22 16:37:54] Application started
+[2025-09-22 16:37:55] Application started
+[2025-09-22 16:38:55] Database connection failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+[2025-09-22 16:38:55] DB connection error during registration for sharmaabhijit144@gmail.com: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+[2025-09-22 16:39:09] Database connection failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+[2025-09-22 16:39:09] DB connection error during registration for sharmaabhijit144@gmail.com: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+[2025-09-22 16:39:27] Database connection failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+[2025-09-22 16:39:27] DB connection error during registration for sharmaabhijit144@gmail.com: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+[2025-09-22 16:42:59] Database connection failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+[2025-09-22 16:42:59] DB connection error during registration for sharmaabhijit144@gmail.com: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+[2025-09-22 16:43:10] Database connection failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+[2025-09-22 16:43:10] DB connection error during registration for sharmaabhijit144@gmail.com: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+[2025-09-22 16:43:33] Database connection failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+[2025-09-22 17:19:35] Application started
+[2025-09-22 17:19:35] Application started
+[2025-09-22 17:19:58] Database connection failed: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+[2025-09-22 17:19:58] DB connection error during registration for sharmaabhijit144@gmail.com: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+[2025-09-29 10:57:58] Application started
+[2025-09-29 10:57:59] Application started
+[2025-09-29 11:04:46] Application started
+[2025-09-29 11:04:47] Application started

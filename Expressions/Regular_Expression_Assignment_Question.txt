@@ -1,0 +1,15 @@
+Assignment 1: List All .txt Files and Check for a Word using glob + re.search
+ 
+Write a script to:
+- Find all .txt files in a folder.
+- Check if any file contains the word "Python".
+- Print the file name if the word is found
+ 
+ 
+Assignment 2: Match File Names Using re.match
+List all files in a folder using glob, and print only the ones that start with "data_" and end with ".csv".
+ 
+ 
+Assignment 3: Validate Phone Numbers with re.match
+Given a list of phone numbers, print only the ones that match this format:
+(123) 456-7890
